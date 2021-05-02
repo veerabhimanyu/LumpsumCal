@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lumpsum.css" />
+    <title>Lumpsum Calculator</title>
+  </head>
+  <body>
+    <div class="div">
+      <!-- <h1>Lumpsum Calculator</h1> -->
+      <span class="text">Lumpsum Calculator</span>
+      <!-- investment value -->
+      <br />
+      <form>
+        <h3>Investment Value</h3>
+        <input
+          type="number"
+          min="500"
+          placeholder="₹"
+          class="investmentValue"
+        />
+        <h3>Expected Returns Rate</h3>
+        <input type="text" min="1" placeholder="%" class="rate" />
+        <h3>Time Period (Years)</h3>
+        <input type="number" min="1" placeholder="Years" class="years" /> <br />
+
+        <h4 class="h1"></h4>
+        <h4 class="h2"></h4>
+        <h4 class="h"></h4>
+        <button type="submit" class="button button1">Calculate Returns</button>
+      </form>
+    </div>
+    <script src="lumpsum.js"></script>
+  </body>
+</html>
