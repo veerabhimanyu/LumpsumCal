@@ -1,5 +1,5 @@
 button {
-  /* Green */
+ 
 
   font-size: 16px;
   background: #f2e41d;
@@ -40,12 +40,11 @@ h1 {
 body {
   background-color: #ecf0f3;
 }
-@media (max-width: 480px) {
-}
+
 
 .text {
   font-size: 2rem;
-
+  padding-top:20px;
   /* box-shadow: inset 100px 100px 100px #cbced1, inset -100px -100px 100px white;
   border-radius: 10px;
   padding-left: 5px;
